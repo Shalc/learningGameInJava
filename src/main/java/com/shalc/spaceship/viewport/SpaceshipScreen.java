@@ -12,12 +12,12 @@ public class SpaceshipScreen extends JFrame {
     }
 
     private void initUI() {
-        add(new Board());
+        add(new SpaceshipBoard());
 
-        setSize(400, 300);
         setResizable(false);
+        pack();
 
-        setTitle("Jogin");
+        setTitle("Spaceship");
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }

@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * @author David Emidio
  */
-public class Board extends JPanel implements ActionListener {
+public class SpaceshipBoard extends JPanel implements ActionListener {
 
 
     private final int ICRAFT_X = 40;
@@ -42,7 +42,7 @@ public class Board extends JPanel implements ActionListener {
     private boolean ingame;
     private ArrayList<Alien> aliens;
 
-    public Board() {
+    public SpaceshipBoard() {
         initBoard();
     }
 
