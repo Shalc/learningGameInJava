@@ -8,6 +8,10 @@
     <artifactId>test-game</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <scm>
+        <connection>scm:git:https://github.com/Shalc/learningGameInJava.git</connection>
+    </scm>
+
     <build>
         <plugins>
             <plugin>
