@@ -4,11 +4,11 @@
 
     <groupId>com.shalc</groupId>
     <artifactId>test-game</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
 
     <scm>
         <connection>scm:git:https://github.com/Shalc/learningGameInJava.git</connection>
-      <tag>test-game-1.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <build>
