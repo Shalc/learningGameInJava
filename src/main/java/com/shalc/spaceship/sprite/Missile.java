@@ -1,4 +1,4 @@
-package com.shalc;
+package com.shalc.spaceship.sprite;
 
 /**
  * @author David Emidio

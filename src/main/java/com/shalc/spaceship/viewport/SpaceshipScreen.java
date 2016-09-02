@@ -1,13 +1,13 @@
-package com.shalc;
+package com.shalc.spaceship.viewport;
 
 import javax.swing.*;
 
 /**
  * @author David Emidio
  */
-public class Application extends JFrame {
+public class SpaceshipScreen extends JFrame {
 
-    public Application() {
+    public SpaceshipScreen() {
         initUI();
     }
 

@@ -1,4 +1,4 @@
-package com.shalc;
+package com.shalc.spaceship.sprite;
 
 import javax.swing.*;
 import java.awt.*;
@@ -52,6 +52,10 @@ public class Sprite {
 
     public void setVisible(Boolean visible) {
         vis = visible;
+    }
+
+    public Rectangle getBounds() {
+        return new Rectangle(x, y, width, height);
     }
 
 }

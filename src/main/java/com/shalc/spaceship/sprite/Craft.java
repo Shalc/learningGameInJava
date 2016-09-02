@@ -1,4 +1,4 @@
-package com.shalc;
+package com.shalc.spaceship.sprite;
 
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
@@ -28,6 +28,8 @@ public class Craft extends Sprite {
     public void move() {
         x += dx;
         y += dy;
+        x = x < 1 ? 1 : x;
+        y = y < 1 ? 1 : y;
     }
 
     public List<Missile> getMissiles() {
@@ -36,23 +38,18 @@ public class Craft extends Sprite {
 
     public void keyPressed(KeyEvent e) {
         int key = e.getKeyCode();
-
         if (key == KeyEvent.VK_SPACE) {
             fire();
         }
-
         if (key == KeyEvent.VK_LEFT) {
             dx = -1;
         }
-
         if (key == KeyEvent.VK_RIGHT) {
             dx = 1;
         }
-
         if (key == KeyEvent.VK_UP) {
             dy = -1;
         }
-
         if (key == KeyEvent.VK_DOWN) {
             dy = 1;
         }
